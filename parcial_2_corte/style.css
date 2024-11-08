@@ -1,0 +1,47 @@
+/* Fondo de imagen */
+body {
+    background-image: url('fondo.gif'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Logo redondo */
+.logo {
+    width: 70px; /* Tamaño del logo */
+    height: 70px;
+    border-radius: 50%; /* Hace la imagen redonda */
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+/* Texto superpuesto */
+.overlay-text {
+    width: 60%;
+    margin-left: 20%;
+}
+
+
+.overlay-text h1 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.overlay-text p {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.product-image {
+    width: 50%;
+    align-self: center;
+}
+

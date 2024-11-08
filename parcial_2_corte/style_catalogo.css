@@ -1,0 +1,27 @@
+/* Fondo de imagen */
+body {
+    background-image: url('fondo.gif'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+/* Logo redondo */
+.logo {
+    width: 70px; /* Tamaño del logo */
+    height: 70px;
+    border-radius: 50%; /* Hace la imagen redonda */
+}
+
+.logo-link {
+    display: inline-block;
+}
+
+/* Tamaño uniforme para las imágenes de los productos */
+.product-image {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: 250px; /* Fija la altura para todas las imágenes */
+    object-fit: cover; /* Corta la imagen para ajustarla al contenedor sin distorsión */
+    border-radius: 8px; /* Borde ligeramente redondeado (opcional) */
+}
